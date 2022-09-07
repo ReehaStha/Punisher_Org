@@ -1,0 +1,88 @@
+*{
+    padding:  0;
+    margin:  0;
+}
+
+.header header{
+    text-align: center;
+    padding: 2px;
+    margin: 1px;
+}
+
+.Button{
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+}
+
+.Button a button{
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    background-color: darkgray;
+    transition: 1.5%;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.Button a button:hover{
+    box-shadow: 0 5px 50px 0 aqua inset, 0 5px 50px 0 aqua,
+                0 5px 50px 0 aqua inset, 0 5px 50px 0 aqua;
+}
+
+.Button p:hover{
+    box-shadow: 0 5px 50px 0 red inset, 0 5px 50px 0 red,
+                0 5px 50px 0 red inset, 0 5px 50px 0 red;
+    color: white;
+}
+
+.header:hover{
+    box-sizing: 250px;
+    box-shadow: 0 5px 50px 0 green inset, 0 5px 50px 0 green,
+                0 5px 50px 0 green inset, 0 5px 50px 0 green;
+    color: white;
+}
+
+.form{
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.button1 button{
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    background-color: darkgray;
+    transition: 1.5%;
+
+}
+
+.button1 button:hover{
+    box-shadow: 0 5px 50px 0 aqua inset, 0 5px 50px 0 aqua,
+                0 5px 50px 0 aqua inset, 0 5px 50px 0 aqua;
+}
+
+
+
+@media screen and(max-width: 617px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+}
